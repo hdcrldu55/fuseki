@@ -17,7 +17,7 @@ Create a `diy-0.1` application
 Add this repository
 
     cd fuseki
-    git remote add fuseki -m master git://github.com/semfact/openshift-fuseki.git
+    git remote add fuseki -m master git://github.com/semfact/openshift-fuseki.git git@github.com:hdcrldu55/fuseki.git  https://github.com/hdcrldu55/fuseki.git
     git pull -s recursive -X theirs fuseki master
 
 Push the repository to your OpenShift instance
